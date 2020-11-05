@@ -4,12 +4,10 @@ body {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
-
 
 footer {
     color: #888888;
@@ -39,7 +37,7 @@ header a {
 }
 
 .portrait {
-    width:250px;
+    width: 250px;
 }
 
 input {
@@ -48,9 +46,9 @@ input {
 }
 
 button {
-     cursor: pointer;
-     border: 1px solid #888888;
-     background-color: #888888;
-     color: white;
-     padding: 8px;
+    cursor: pointer;
+    border: 1px solid #888888;
+    background-color: #888888;
+    color: white;
+    padding: 8px;
 }
