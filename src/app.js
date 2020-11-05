@@ -46,13 +46,13 @@ app.get('/weather', (req, res) => {
 app.get('', (req, res) => {
     res.render('index', {
         title: "Weather App",
-        name: "Andrew"
+        name: "Divam"
     });
 });
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        name: 'Andrew',
+        name: 'Divam',
         title: 'About'
     })
 })
@@ -60,7 +60,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        name: 'Andrew',
+        name: 'Divam',
         helpText: 'This is some helpful text'
     })
 })
@@ -68,7 +68,7 @@ app.get('/help', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Andrew',
+        name: 'Divam',
         errorMessage: 'Help Article Not Found'
     });
 })
@@ -76,7 +76,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Andrew',
+        name: 'Divam',
         errorMessage: 'Page Not Found'
     });
 })
